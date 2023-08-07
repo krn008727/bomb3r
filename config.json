@@ -16,31 +16,9 @@
         "identifier": "sent"
       },
       {
-        "name": "frotels",
-        "method": "POST",
-        "url": "https://www.frotels.com/appsendsms.php",
-        "target_param": "mobno",
-        "data": {
-          "mobno": ""
-        },
-        "identifier": "sent"
-      },
-      {
-        "name": "gapoon",
-        "method": "POST",
-        "url": "https://www.gapoon.com/userSignup",
-        "target_param": "mobile",
-        "data": {
-          "mobile": "",
-          "email": "a@a.com",
-          "name": "a"
-        },
-        "identifier": "1"
-      },
-      {
         "name": "housing",
         "method": "POST",
-        "url": "https://login.housing.com/api/v2/send-otp",
+        "url": "https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&emittedFrom=client_buy_home&isBot=false&source=web",
         "target_param": "phone",
         "data_type": "json",
         "data": {
